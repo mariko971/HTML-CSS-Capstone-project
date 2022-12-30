@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="join.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <h1 class="nav_header">MANUTD-FANS</h1>
+      <ul class="nav_links">
+        <li><a href="/">Home</a></li>
+        <li><a href="join.html">Join Us</a></li>
+        <li><a href="hangouts.html">Hangouts</a></li>
+        <li><a href="news.html">News</a></li>
+      </ul>
+    </nav>
+    <form action="post" class="signUp_form">
+      <fieldset>
+        <legend>Sign Up</legend>
+        <div class="input_wrapper">
+          <label for="firstName">
+            First Name :
+            <input type="text" name="firstName" />
+          </label>
+        </div>
+        <div class="input_wrapper">
+          <label for="lastName">
+            Last Name :
+            <input type="text" name="lastName" />
+          </label>
+        </div>
+        <div class="input_wrapper promo">
+          <input type="checkbox" name="promotions" id="promotions" />
+          Would you like to recieve offers and promotions available to members
+          through email?
+        </div>
+        <div class="input_wrapper">
+          <label for="aboutMe">
+            Tell us about you and your interest to join our club:
+          </label>
+        </div>
+        <textarea name="aboutMe" id="aboutme" cols="40" rows="10"></textarea>
+        <div class="submit-btn">
+          <button>Submit</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

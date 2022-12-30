@@ -5,13 +5,19 @@ font-family: "Roboto", sans-serif;
 ## colors
 
 - primary-font : #0000;
-- headings : #FF0000;
+- headings : #FF0000 #FFFF;
+- background-color: #FF0000;
 
 ## Elements
 
-### Page 1
+### Pages
 
 - Navigation bar : nav
 - Header title : h1
 - Header sub-title : h2
-- sections : article
+- sections : main/article/section
+
+### Hover
+
+- Font-weight : Bold
+- text-decoration: underline
