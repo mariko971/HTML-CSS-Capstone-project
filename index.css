@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav {
+  display: flex;
+  background-color: #ff0000;
+  color: white;
+  justify-content: space-between;
+  padding: 3px 3rem;
+}
+
+.nav_header {
+  font-weight: bold;
+}
+
+.nav_links {
+  display: flex;
+  list-style: none;
+  width: 500px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav_links a:hover {
+  font-weight: bold;
+}
+
+.main {
+  padding-inline: 3rem;
+}
+
+.main_image {
+  background-image: url("/manchester-united-players.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+h2 {
+  color: #ff0000;
+}
