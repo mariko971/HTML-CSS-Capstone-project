@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav {
+  display: flex;
+  background-color: #ff0000;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 3rem;
+}
+
+.nav_header {
+  font-weight: bold;
+  border-bottom: solid 5px #ffff;
+  font-size: 22px;
+  margin: 0;
+}
+
+.nav_links {
+  display: flex;
+  list-style: none;
+  width: 500px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav_links a:hover {
+  font-weight: bold;
+  border-bottom: solid 3px #ffff;
+}
+
+.main {
+  padding-inline: 3rem;
+}
+
+.main_title {
+  text-align: center;
+  border-bottom: solid 1px #ff0000;
+  padding-bottom: 1rem;
+}
+
+.main_image {
+  background-image: url("/assets/manchester-united-players.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.main_article {
+  width: 90%;
+  margin-inline: auto;
+}
+
+.main_article-text {
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+h2 {
+  color: #ff0000;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.main_article-list {
+  background-color: #ff0000;
+  color: #ffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.membership {
+  text-decoration: underline;
+}
+
+.main_article-list li {
+  padding: 10px 0 10px 0;
+}

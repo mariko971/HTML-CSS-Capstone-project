@@ -8,11 +8,15 @@
   background-color: #ff0000;
   color: white;
   justify-content: space-between;
+  align-items: center;
   padding: 3px 3rem;
 }
 
 .nav_header {
   font-weight: bold;
+  border-bottom: solid 5px #ffff;
+  font-size: 22px;
+  margin: 0;
 }
 
 .nav_links {
@@ -37,14 +41,26 @@
   padding-inline: 3rem;
 }
 
-.main_image {
-  background-image: url("/assets/manchester-united-players.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
+.main_title {
+  text-align: center;
+  border-bottom: solid 1px #ff0000;
+  padding-bottom: 1rem;
 }
 
-h2 {
-  color: #ff0000;
+.hangouts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  font-weight: bold;
+}
+
+.hangouts_item-img:hover {
+  border: solid 2px #ff0000;
+}
+
+.hangouts_item-img {
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
